@@ -10,7 +10,7 @@
     $current_page = basename($_SERVER['PHP_SELF']);
     ?>
     <a href="index.php" class="<?php if ($current_page != 'index.php') { echo 'active'; } ?>">Добавить лид</a>
-    <a href="statuses.php" class="<?php if ($current_page != 'about.php') { echo 'active'; } ?>">Статусы лидов</a>
+    <a href="statuses.php" class="<?php if ($current_page != 'statuses.php') { echo 'active'; } ?>">Статусы лидов</a>
 </div>
     <!-- <a href="index.php" style="margin-right: 15px; font-size: 18px; text-decoration: none; color: #333;">Главная</a>
     <a href="about.php" style="font-size: 18px; text-decoration: none; color: #333;">О нас</a> -->
