@@ -39,6 +39,7 @@ function getLeadsStatuses($dateFrom = null, $dateTo = null, $page = 0, $limit = 
     ]);
     
     $response = curl_exec($curl);
+    print_r($response);
     $httpCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
     $error = curl_error($curl);
     
